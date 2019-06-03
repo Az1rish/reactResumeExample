@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Student's Resume</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="application-root"></div>
+    
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script type="text/babel">
+        function App(props) {
+            return (
+                <div>
+                    <header>
+                        <h1>Sally Student</h1>
+                        <img src="http://sphm-sww-site-production.s3-ap-southeast-1.amazonaws.com/2018/01/6-Ingenious-Products-Korean-Women-Use-For-Thick-Beautiful-Looking-Hair-main.jpg" alt="Picture of Sally Student" /><br />
+                        <address>
+                            <p>Hi, I'm Sally Student and you can contact me here:</p>
+                            <a href="mailto:SallyStudent@student.edu?subject=Resume Response">SallyStudent@student.edu</a><br /><br />
+                            <a href="tel:+1-480-555-1234">+1-480-555-1234</a>
+                        </address>
+                    </header>
+
+                    <main>
+                        <section>
+                            <h2>Education</h2>
+                            <h3>University of Texas - El Paso</h3>
+                            <ul>
+                                <li>Bachelor of Arts Degree in History</li>
+                                <li>Graduated Summa Cum Laude</li>
+                                <li>President of History Club</li>
+                                <li>Editor at large for school paper</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Work Experience</h2>
+                            <h3>South Phoenix Union High School</h3>
+                            <ul>
+                                <li>History teacher</li>
+                                <li>August 2015 - June 2017</li>
+                                <li>Lorem ipsum dolor sit amet, ipsum ipsum lorem et laborum.</li>
+                            </ul>
+                            <h3>Arizona Republic</h3>
+                            <ul>
+                                <li>Head of Social Media Outreach</li>
+                                <li>July 2017 - Present</li>
+                                <li>Lorem ipsum plus much more lorem ipsum.</li>
+                            </ul>
+                        </section>
+                    </main>
+                </div>
+            );
+        }
+
+        ReactDOM.render(
+            <App />, document.querySelector('#application-root')
+        );
+    </script>
+</body>
+</html>

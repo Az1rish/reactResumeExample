@@ -1,0 +1,9 @@
+img {
+    width: 50%;
+    height: 25%;
+  }
+  
+  header {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+  }
