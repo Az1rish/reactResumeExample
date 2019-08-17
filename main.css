@@ -6,4 +6,5 @@ img {
   header {
     border-bottom: 2px solid black;
     padding-bottom: 10px;
+    text-align: center;
   }
